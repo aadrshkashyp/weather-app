@@ -5,11 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
-      crossorigin="anonymous"
-    ></script>
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
@@ -142,35 +137,23 @@
                 </svg>
               </div>
               <div class="flex flex-row items-center justify-center mt-6">
-                <div class="font-medium text-6xl">
+                <div class="font-medium text-4xl">
                   <p id="temperatureC">°C</p>
                 </div>
                 <div class="flex flex-col items-center ml-6">
                   <div id="txtWord">Climate</div>
-                  <div class="mt-1">
-                    <span class="text-sm"
-                      ><i class="far fa-long-arrow-up"></i
-                    ></span>
-                    <span class="text-sm font-light text-gray-500"
-                      ><p id="temperatureC">°C</p></span
-                    >
-                  </div>
-                  <div>
-                    <span class="text-sm"
-                      ><i class="far fa-long-arrow-down"></i
-                    ></span>
-                    <span class="text-sm font-light text-gray-500"
-                      ><p id="temperatureF">°F</p></span
-                    >
-                  </div>
                 </div>
               </div>
               <div class="flex flex-row justify-between mt-6">
-                <div class="flex pl-8 flex-col items-center">
+                <div class="flex flex-col items-center">
+                  <div class="font-medium text-sm">Fahrenheit</div>
+                  <div class="text-sm text-gray-500" id="temperatureF">°F</div>
+                </div>
+                <div class="flex flex-col items-center">
                   <div class="font-medium text-sm">Wind</div>
                   <div class="text-sm text-gray-500" id="wind">km/h</div>
                 </div>
-                <div class="flex pr-8 flex-col items-center">
+                <div class="flex flex-col items-center">
                   <div class="font-medium text-sm">Humidity</div>
                   <div class="text-sm text-gray-500" id="humidity">%</div>
                 </div>

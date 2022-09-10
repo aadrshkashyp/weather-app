@@ -39,12 +39,12 @@ async function getdata() {
   document.getElementById("dateTime").innerHTML =
     "<i class='bi bi-calendar'></i> " + data.location.localtime.substr(0, 10);
   document.getElementById("txtWord").innerText = data.current.condition.text;
+  document.getElementById("temperatureF").innerText =
+    " " + data.current.humidity + "°F";
   document.getElementById("humidity").innerText =
     " " + data.current.humidity + "%";
   document.getElementById("wind").innerText =
     " " + data.current.wind_kph + "km/h";
   document.getElementById("temperatureC").innerText =
     data.current.temp_c + " °C";
-  document.getElementById("temperatureF").innerText =
-    data.current.temp_f + " °F";
 }
